@@ -539,7 +539,7 @@ a.button.icon.disabled {
 .input > .suffix-icon {
   position: absolute;
   right: 13.5px;
-  bottom: 13.5px;
+  bottom: 8.5px;
 }
 .input > .suffix-icon > .icon {
   display: flex;
@@ -615,6 +615,10 @@ a.button.icon.disabled {
   cursor: pointer;
   -webkit-user-select: none;
   user-select: none;
+}
+.checkbox.required > .label::after {
+  content: '*';
+  margin-left: 3px;
 }
 @media (pointer: fine) {
   .checkbox:hover > input {
@@ -1843,6 +1847,7 @@ li.chat-content-list-item.temp {
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
+  padding-bottom: 20px;
 }
 .showcase-view > section > section > h3 {
   font-size: 20px;
