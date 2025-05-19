@@ -1826,6 +1826,11 @@ li.chat-content-list-item.temp {
   align-items: flex-start;
   gap: 20px;
 }
+@container (width <= 520px) {
+  .showcase-view {
+    padding: 20px;
+  }
+}
 .showcase-view > h1 {
   font-size: 36px;
 }
