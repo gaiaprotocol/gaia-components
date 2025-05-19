@@ -2,7 +2,9 @@
   "type": "module",
   "types": "./lib/index.d.ts",
   "main": "./lib/index.js",
-  "dependencies": {},
+  "dependencies": {
+    "@commonmodule/component-showcase": "^0.0.1"
+  },
   "devDependencies": {
     "@types/node": "^22.7.5",
     "@types/webpack": "^5.28.5",
