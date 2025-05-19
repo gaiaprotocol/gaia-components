@@ -155,7 +155,8 @@ meter {
   animation: rotate-material-loading-spinner-dash 1.4s ease-in-out infinite;
   stroke: var(--loading-spinner-color);
 }
-button.contained .material-loading-spinner > svg > circle {
+button.contained .material-loading-spinner > svg > circle,
+button.icon .material-loading-spinner > svg > circle {
   stroke: var(--loading-spinner-on-contained-button-color);
 }
 :root {
@@ -324,7 +325,7 @@ a.button {
   justify-content: center;
   gap: 8px;
   cursor: pointer;
-  padding: 8px 22px;
+  padding: 6px 20px;
   min-height: 40px;
   font-size: 15px;
   transition: background-color 0.2s linear;
@@ -1819,6 +1820,11 @@ li.chat-content-list-item.temp {
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
+}
+@container (width <= 520px) {
+  .showcase-view {
+    padding: 20px;
+  }
 }
 .showcase-view > h1 {
   font-size: 36px;
