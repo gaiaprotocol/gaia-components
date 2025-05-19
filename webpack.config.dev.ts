@@ -4,7 +4,7 @@ import webpack from "webpack";
 
 const config: webpack.Configuration = {
   entry: {
-    "bundle": "./src/dev.ts",
+    "bundle": "./src/main.ts",
     __less: "./style/main.less",
   },
   module: {
@@ -40,7 +40,7 @@ const config: webpack.Configuration = {
   },
   output: {
     filename: "[name]-dev.js",
-    path: path.resolve("../public"),
+    path: path.resolve("./public"),
   },
   plugins: [
     new webpack.ProvidePlugin({

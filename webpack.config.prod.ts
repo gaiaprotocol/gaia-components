@@ -19,7 +19,7 @@ const config: webpack.Configuration = {
     ],
   },
   entry: {
-    "bundle": "./src/prod.ts",
+    "bundle": "./src/main.ts",
     __less: "./style/main.less",
   },
   module: {
@@ -55,7 +55,7 @@ const config: webpack.Configuration = {
   },
   output: {
     filename: "[name].js",
-    path: path.resolve("../public"),
+    path: path.resolve("./public"),
   },
   plugins: [
     new webpack.ProvidePlugin({
