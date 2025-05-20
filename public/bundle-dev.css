@@ -310,6 +310,13 @@ dialog {
   padding: 22px;
   border-radius: 4.5px;
 }
+.alert.success {
+  background-color: var(--success-alert-bg-color);
+  color: var(--success-alert-text-color);
+}
+.alert.success > .icon-container {
+  color: var(--success-alert-icon-color);
+}
 .alert.info {
   background-color: var(--info-alert-bg-color);
   color: var(--info-alert-text-color);
@@ -323,6 +330,13 @@ dialog {
 }
 .alert.warning > .icon-container {
   color: var(--warning-alert-icon-color);
+}
+.alert.error {
+  background-color: var(--error-alert-bg-color);
+  color: var(--error-alert-text-color);
+}
+.alert.error > .icon-container {
+  color: var(--error-alert-icon-color);
 }
 button,
 a.button {
@@ -1828,7 +1842,6 @@ li.chat-content-list-item.temp {
   padding: 60px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 20px;
 }
 @container (width <= 520px) {
@@ -1842,7 +1855,6 @@ li.chat-content-list-item.temp {
 .showcase-view > section {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 20px;
 }
 .showcase-view > section > h2 {
@@ -1851,7 +1863,6 @@ li.chat-content-list-item.temp {
 .showcase-view > section > section {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 20px;
   padding-bottom: 20px;
 }
@@ -1861,7 +1872,6 @@ li.chat-content-list-item.temp {
 .showcase-view > section > section > section {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 20px;
 }
 .showcase-view > section > section > section > h4 {
