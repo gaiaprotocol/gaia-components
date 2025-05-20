@@ -671,6 +671,14 @@ a.button.icon.disabled {
 .checkbox > input:checked:after {
   display: block;
 }
+.file-dropzone:hover {
+  filter: brightness(0.8);
+  cursor: pointer;
+}
+.file-dropzone.drag-hover {
+  filter: brightness(0.8);
+  outline: 2px dashed #666;
+}
 .dropdown-menu {
   position: fixed;
   z-index: 1000;
@@ -1122,6 +1130,9 @@ dialog.modal.quantity-input-dialog > main {
 }
 .markdown-document ul li:not(:last-child) {
   margin-bottom: 8px;
+}
+.markdown-document strong {
+  font-weight: bold;
 }
 .rich-text-editor-more-menu > main > .dropdown-menu-group {
   display: grid;
@@ -1889,5 +1900,10 @@ li.chat-content-list-item.temp {
 .showcase-view .button-container {
   display: flex;
   gap: 12px;
+}
+.showcase-view .icon-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
