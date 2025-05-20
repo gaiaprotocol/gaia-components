@@ -1,0 +1,50 @@
+.showcase-view {
+  padding       : 60px;
+  display       : flex;
+  flex-direction: column;
+  gap           : 20px;
+
+  @container (width <=@phone-width) {
+    padding: 20px;
+  }
+
+  >h1 {
+    font-size: 36px;
+  }
+
+  >section {
+    display       : flex;
+    flex-direction: column;
+    gap           : 20px;
+
+    >h2 {
+      font-size: 26px;
+    }
+
+    >section {
+      display       : flex;
+      flex-direction: column;
+      gap           : 20px;
+      padding-bottom: 20px;
+
+      >h3 {
+        font-size: 20px;
+      }
+
+      >section {
+        display       : flex;
+        flex-direction: column;
+        gap           : 20px;
+
+        >h4 {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .button-container {
+    display: flex;
+    gap    : 12px;
+  }
+}

@@ -1832,6 +1832,21 @@ li.chat-content-list-item.temp {
   position: absolute;
   inset: 0;
 }
+.home-view {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+@container (width <= 520px) {
+  .home-view {
+    padding: 20px;
+  }
+}
+.home-view > h1 {
+  font-size: 36px;
+}
 .showcase-view {
   padding: 60px;
   display: flex;
@@ -1871,7 +1886,7 @@ li.chat-content-list-item.temp {
 .showcase-view > section > section > section > h4 {
   font-size: 18px;
 }
-.button-container {
+.showcase-view .button-container {
   display: flex;
   gap: 12px;
 }
