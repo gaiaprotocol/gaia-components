@@ -8,7 +8,8 @@
   "main": "./lib/index.js",
   "dependencies": {
     "@commonmodule/component-showcase": "^0.0.1",
-    "@commonmodule/material-loading-spinner": "^0.3.6"
+    "@commonmodule/material-loading-spinner": "^0.3.6",
+    "@gaiaprotocol/ui-preset": "^0.0.3"
   },
   "devDependencies": {
     "@types/node": "^22.7.5",

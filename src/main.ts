@@ -1,5 +1,4 @@
 import { Router } from "@commonmodule/app";
-import { AppCompConfig } from "@commonmodule/app-components";
 import {
   AppComponents,
   RichTextEditorView,
@@ -7,10 +6,10 @@ import {
   SVGIconsView,
   WalletComponents,
 } from "@commonmodule/component-showcase";
-import { MaterialLoadingSpinner } from "@commonmodule/material-loading-spinner";
+import { GaiaUIPreset } from "@gaiaprotocol/ui-preset";
 import Home from "./Home.js";
 
-AppCompConfig.LoadingSpinner = MaterialLoadingSpinner;
+GaiaUIPreset.init();
 
 Router
   .add("/", Home)
