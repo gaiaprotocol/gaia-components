@@ -3,11 +3,11 @@ import {
   AppComponents,
   RichTextEditorView,
   SocialComponents,
-  SVGIconsView,
-  WalletComponents,
 } from "@commonmodule/component-showcase";
 import { GaiaUIPreset } from "@gaiaprotocol/ui-preset";
 import Home from "./Home.js";
+import SVGIconsView from "./SVGIconsView.js";
+import WalletComponents from "./WalletComponents.js";
 
 GaiaUIPreset.init();
 

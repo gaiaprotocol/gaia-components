@@ -9,6 +9,7 @@
   "dependencies": {
     "@commonmodule/component-showcase": "^0.0.1",
     "@commonmodule/material-loading-spinner": "^0.3.6",
+    "@commonmodule/svg-icons": "^0.0.2",
     "@gaiaprotocol/ui-preset": "^0.0.3"
   },
   "devDependencies": {
