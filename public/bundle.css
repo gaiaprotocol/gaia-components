@@ -1256,33 +1256,30 @@ dialog.modal.quantity-input-dialog > main {
   color: var(--avatar-menu-username-color);
 }
 .chat-message-form {
-  padding: 0 16px 8px;
-}
-.chat-message-form > form {
   display: flex;
   align-items: center;
   background-color: var(--chat-message-form-bg-color);
   border-radius: 26px;
   padding: 6px;
 }
-.chat-message-form > form > .input {
+.chat-message-form > .input {
   flex-grow: 1;
 }
-.chat-message-form > form > .input > input {
+.chat-message-form > .input > input {
   border: none;
 }
-.chat-message-form > form > .button-container {
+.chat-message-form > .button-container {
   display: flex;
   align-items: center;
   padding: 4px;
 }
-.chat-message-form > form > .button-container > button {
+.chat-message-form > .button-container > button {
   padding: 0;
   width: 32px;
   height: 32px;
   min-height: auto;
 }
-.chat-message-form > form > .button-container > button > .icon-container > .icon {
+.chat-message-form > .button-container > button > .icon-container > .icon {
   font-size: 20px;
 }
 ul.chat-message-list {
@@ -1905,5 +1902,10 @@ li.chat-content-list-item.temp {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
+}
+.avatar > img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
 }
 
